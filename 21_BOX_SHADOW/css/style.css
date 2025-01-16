@@ -1,0 +1,151 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-bottom: 500px;
+    background-color: #ddf;
+}
+
+h2{
+    margin-bottom: 1.6rem;
+    text-align: center;
+    color: #333;
+}
+
+#box-shadow-generator{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#controls-container,
+#preview{
+    flex: 1;
+    padding: 2rem;
+}
+
+/* controles */
+.form-control{
+    display: flex;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px dashed #fff;
+}
+
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.range-input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.range-input input[type="range"]{
+    appearance: none;
+    width: 100%;
+    height: 24px;
+    background: #d3d3d3;
+    outline: none;
+    
+} 
+
+.range-input input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px; 
+  background: #8e8ef7;
+  cursor: pointer;
+}
+
+.reference-input{
+    display: flex;
+    align-items: center;
+}
+
+.reference-input p{
+    margin-left: 4px;
+}
+
+.form-control input[type="text"]{
+    height: 30px;
+    width: 30px;
+    margin-left: 1rem;
+    text-align: center;
+} 
+
+/*novas funcionalidades */
+#color-value{
+    min-width: 100px;
+}
+
+#inset{
+    align-self: start;
+    height: 20px;
+    width: 20px;
+}
+
+/* Preview */
+#box{
+    width: 100%;
+    height: 300px;
+    background-color: #8e8ef7;
+}
+
+/* area de geração */
+#generated-rule{
+    text-align: center;
+}
+
+#generated-rule p{
+    margin-bottom: 0.5rem;
+}
+
+#rule-area{
+    background-color: #babaf1;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 2px solid #638cb3;
+    padding: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+
+#rule-area:hover{
+    opacity: 1;
+}
+
+#copy-instructions{
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+/* responsivo */
+@media(max-width:425px){
+    #box-shadow-generator{
+        flex-direction: column;
+    }
+    #controls-container,
+    #preview{
+    padding: 1rem 2rem;
+  }
+  #box{
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  #generated-rile{
+    margin-top: 2rem;
+  }
+}
