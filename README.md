@@ -10,11 +10,11 @@
     <em>Explorando a lógica e o poder do JavaScript na prática</em>
   </p>
 
- <p align="center">
+<p align="center">
   <img 
-    src="https://miro.medium.com/v2/resize:fit:1400/1*H7I3EoM9yG0d6hFQqJtWZg.png" 
-    width="500px" 
-    style="border-radius:12px;">
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+    width="120px" 
+    style="border-radius:12px; background:#fff; padding:15px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
 </p>
 
   <hr>
