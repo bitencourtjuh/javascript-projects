@@ -10,9 +10,12 @@
     <em>Explorando a lógica e o poder do JavaScript na prática</em>
   </p>
 
-  <p align="center">
-    <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="500px" style="border-radius:10px;">
-  </p>
+ <p align="center">
+  <img 
+    src="https://miro.medium.com/v2/resize:fit:1400/1*H7I3EoM9yG0d6hFQqJtWZg.png" 
+    width="500px" 
+    style="border-radius:12px;">
+</p>
 
   <hr>
 
