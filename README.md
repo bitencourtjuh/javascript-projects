@@ -10,6 +10,13 @@
     <em>Explorando a lógica e o poder do JavaScript na prática</em>
   </p>
 
+  <p align="center">
+  <img 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+    width="120px" 
+    style="border-radius:12px; background:#fff; padding:15px; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+</p>
+
   <hr>
 
   <h2 style="color:#333;"> --- Sobre o Repositório</h2>
