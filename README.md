@@ -14,7 +14,7 @@
   <img 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
     width="120px" 
-    style="border-radius:12px; background:#fff; padding:15px; box-shadow:0 4px 12px rgba(0,0,0,0.1); max-width:150px">
+    style="border-radius:12px; background:#fff; padding:15px; box-shadow:0 4px 12px rgba(0,0,0,0.1); max-width:75px">
 </p>
 
   <hr>
